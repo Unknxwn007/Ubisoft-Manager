@@ -1,11 +1,9 @@
-# GMUI
-GMUI stands for "Give Me Uncompressed Images", it's only purpose is to remove duplicate images from game clients like Ubisoft Connect and only keep the uncompressed images.
+# Ubisoft Manager
+Simple Program to backup & restore savegames and delete compressed screenshots from the Ubisoft Connect Launcher
 
 ## Why?
-By default the screenshots are compressed, turning on the option to save an uncompressed copy of the image gives you a higher quality screenshot however, it still stores the compressed image which you may not want, hence the script.
+By default the screenshots are compressed, turning on the option to save an uncompressed copy of the image gives you a higher quality screenshot however, it still stores the compressed image. \
+Some games don't support cloud syncing and that is annoying, this tool makes sure you never loose your savegames again!
 
 ## Goals
-- Add support for steam
-
-## How does it work?
-It simply goes through the folder you selected in the config file (This better be the folder you save the screenshots to.) and removes the images with a .jpg extension. 
+- Fix more bugs
